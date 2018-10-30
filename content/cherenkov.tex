@@ -2,22 +2,24 @@
 
 \chapterauthor{Rune Dominik, 26.10.2018}
 
-\subsection{Geschichte}
-Tatsächlich hat bereits Marie Curie blaues Licht gesehen, was heute als Cherenkovlicht erklärt werden kann.
+\subsection{Historische Entwicklung}
+Die erste Beobachtung von Cherenkov-Strahlung, welche die Grundlage für Cherenkov-Detektoren bildet, lässt sich auf Marie Curie im Jahre 1910 zurückverfolgen.
+Sie beobachtete erstmals das charakteristische blaue Licht, welches im Jahre 1934 durch den späteren Namensgeber Pawel Alexejewitsch Tscherenkow entdeckt wurde.
+Er erhielt, zusammen mit Ilja Michailowitsch Frank und Igor Jewgenjewitsch Tamm, welche 1937 den Cherenkov-Effekt theoretisch erklärten, im Jahr 1958 den Nobelpreis.
+Seitdem wird die Technik der Cherenkov-Detektoren, welche für den Teilchennachweis und die Teilchenidentifikation in der (Astro-)Teilchenphysik verwendet werden, stetig weiterentwickelt.
 
-\subsection{Theorie}
-Der Cherenkoveffekt tritt auf, wenn geladene Teilchen mit Überlichtgeschwindigkeit durch ein Medium propagieren. Es wird hierdurch ein Cherekovlichtkegel abgegeben, siehe Abbildung \ref{fig:aufbau}.
+\subsection{Theoretische Grundlagen}
+Der Cherenkov-Effekt beschreibt das Auftreten von elektromagnetischer Strahlung, wenn überlichtschnelle, geladene Teilchen ein Medium durchqueren.
+Besitzt das Teilchen die Geschwindigkeit $\beta c$ und beträgt die Lichtgeschwindigkeit im Medium $\sfrac{c}{n}$, wobei $n$ den Brechungsindex im entsprechenden Medium beschreibt, so gilt für den Winkel zwischen Teilchenbahn und Emission des Cherenkov-Lichts die Formel
+\begin{equation}
+	\cos{\theta} = \frac{1}{n \beta}.
+\end{equation}
+Das Spektrum des emittierten Lichts, welches durch die Frank-Tamm-Gleichung beschrieben wird, besitzt hierbei eine $\lambda^{-2}$-Abhängigkeit.
 
-\begin{figure}[H]
-  \centering
-  \includegraphics[height=6.0cm]{content/Cherenkov.png}
-  \caption{Theoretische Erklärung des Cherenkoveffektes.}
-  \label{fig:aufbau}
-\end{figure}
+Um Detektoren in ihrer Effizienz vergleichen zu können, kann die Detektoreffizienz $\epsilon$ verwendet werden, welche den Anteil der tatsächlich gemessenen an den theoretisch messbaren Cherenkov-Photonen beschreibt.
 
-\subsection{Aufbau}
-Es gibt verschiedene Bauweisen für solche Teleskope. Insbesondere die HESE ist eine sehr moderne Bauweise.
+\subsection{Experimenteller Aufbau von Cherenkov-Detektoren}
+Ein grundlegender Cherenkov-Detektor besteht aus einem Radiator, in welchem durchgehende Teilchen Cherenkov-Licht emittieren sowie einer Detektoreinheit, welche das Licht detektiert. Zudem wird eine Anordnung, beispielsweise aus Spiegeln, benötigt, welche das Licht vom Radiator auf den Detektor lenkt.
+Die exakte Ausführung dieses Konzeptes ist detektorabhängig, wobei im Folgenden das Konzept der Schwellwertdetektoren, der differentiellen Detektoren sowie der RICH-Detektoren erläutert.
 
-Test~\cite{Gil:02}
-
-
+\subsubsection{Schwellwertdetektoren}
