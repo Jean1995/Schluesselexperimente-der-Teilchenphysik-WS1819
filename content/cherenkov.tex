@@ -1,3 +1,7 @@
+%TODO:
+% Kapitel zur Ausleseelektronik bisher ausgelassen
+% Wie die Diskussion formulieren?
+
 \section{Cherenkov-Detektoren}
 
 \chapterauthor{Rune Dominik, 26.10.2018}
@@ -5,7 +9,7 @@
 \subsection{Historische Entwicklung}
 Die erste Beobachtung von Cherenkov-Strahlung, welche die Grundlage für Cherenkov-Detektoren bildet, lässt sich auf Marie Curie im Jahre 1910 zurückverfolgen.
 Sie beobachtete erstmals das charakteristische blaue Licht, welches im Jahre 1934 durch den späteren Namensgeber Pawel Alexejewitsch Tscherenkow entdeckt wurde.
-Er erhielt, zusammen mit Ilja Michailowitsch Frank und Igor Jewgenjewitsch Tamm, welche 1937 den Cherenkov-Effekt theoretisch erklärten, im Jahr 1958 den Nobelpreis.
+Er erhielt, zusammen mit Ilja Michailowitsch Frank und Igor Jewgenjewitsch Tamm, welche 1937 den Cherenkov-Effekt theoretisch erklärten, im Jahre 1958 den Nobelpreis.
 Seitdem wird die Technik der Cherenkov-Detektoren, welche für den Teilchennachweis und die Teilchenidentifikation in der (Astro-)Teilchenphysik verwendet werden, stetig weiterentwickelt.
 
 \subsection{Theoretische Grundlagen}
@@ -16,10 +20,50 @@ Besitzt das Teilchen die Geschwindigkeit $\beta c$ und beträgt die Lichtgeschwi
 \end{equation}
 Das Spektrum des emittierten Lichts, welches durch die Frank-Tamm-Gleichung beschrieben wird, besitzt hierbei eine $\lambda^{-2}$-Abhängigkeit.
 
-Um Detektoren in ihrer Effizienz vergleichen zu können, kann die Detektoreffizienz $\epsilon$ verwendet werden, welche den Anteil der tatsächlich gemessenen an den theoretisch messbaren Cherenkov-Photonen beschreibt.
-
+Um Detektoren in ihrer Effizienz vergleichen zu können kann die Detektoreffizienz $\epsilon$ verwendet werden, welche den Anteil der tatsächlich gemessenen an den theoretisch messbaren Cherenkov-Photonen beschreibt.
+Zudem ist das Auflösungsvermögen $R \coloneqq \sfrac{\sigma_{\beta}}{\beta}$ in $\beta$ relevant.
 \subsection{Experimenteller Aufbau von Cherenkov-Detektoren}
-Ein grundlegender Cherenkov-Detektor besteht aus einem Radiator, in welchem durchgehende Teilchen Cherenkov-Licht emittieren sowie einer Detektoreinheit, welche das Licht detektiert. Zudem wird eine Anordnung, beispielsweise aus Spiegeln, benötigt, welche das Licht vom Radiator auf den Detektor lenkt.
-Die exakte Ausführung dieses Konzeptes ist detektorabhängig, wobei im Folgenden das Konzept der Schwellwertdetektoren, der differentiellen Detektoren sowie der RICH-Detektoren erläutert.
+Ein grundlegender Cherenkov-Detektor besteht aus einem Radiator, in welchem durchgehende Teilchen Cherenkov-Licht emittieren sowie einer Detektoreinheit, welche das emittierte Licht detektiert. Zudem wird eine Anordnung, beispielsweise aus Spiegeln, benötigt, welche das Licht vom Radiator auf den Detektor lenkt.
+Die exakte Ausführung dieses Konzeptes ist detektorabhängig, wobei im Folgenden das Konzept der Schwellwertdetektoren, der differentiellen Detektoren sowie der RICH-Detektoren erläutert wird.
 
 \subsubsection{Schwellwertdetektoren}
+Bei nicht fokussierenden Schwellwertdetektoren wird ein einzelner Spiegel verwendet, um die Cherenkovphotonen auf einen Photomultiplier zu lenken.
+Hierbei liegt einer der beiden Brennpunkte des Spiegels am Kollisionspunkt, der andere im Photomultiplier.
+Bei einer möglichst hohen Lichtausbeute sowie einem kleinen Emissionswinkel $\theta$ wird dabei das Auflösungsvermörgen $R$ optimiert.
+Da keine optischen fokussierenden Bauteile vorhanden sind kann ein großes Geschwindigkeitsintervall $\Delta\beta$ beobachtet werden. 
+Geleichzeitig schließt diese hohe Akzeptanz in der Geschwindigkeit und im Winkel den Schwellwertdetektor zur Teilchenselektion aus.
+Zudem lässt die längliche Bauweise des Detektors eine Anwendung in beispielsweise Collider-Experimenten nicht zu.
+Dafür können Schwellwertdetektoren bei bekanntem Impuls des Teilchenstrahls zur Teilchenidentifikation verwendet werden.
+Auch die Nutzung mehrerer Schwellwertdektoren mit unterschiedlichem $n$ in Reihe ist möglich, um die Teilchenart anhand des unterschiedlichen Verhaltens in den verschiedenen Detektorkammern zu bestimmen.
+% Delta beta == Geschwindigkeitsunterschied Teilchen gleichen Impulses aber unterschiedlicher Masse
+% Sigma beta == Auflösungsvermögen in Beta, korrliert mit Winkelauflösungsvermögen
+% Für Teilchenunterscheidbarkeit: sigma_beta < Delta_beta
+
+\subsubsection{Differentielle Detektoren}
+Bei fokussierenden, differentiellen Detektoren wird im Vergleich zu den Schwellwertdetektoren eine fokusierende Optik verwendet, welche lediglich Cherenkovlicht auf den Photomultiplier lenkt, welches einem festen $\beta$ entspricht.
+Der Messbereich $\Delta \beta$ ist dementprechend klein, so dass sich der Detektor nicht zur Teilenidentifikation eignet.
+Stattdessen eignet sich ein differentieller Detektor zur Teilchenselektion durch eine zum gesuchten $\beta$ passende Wahl der Optik.
+Geleichzeitig führt die genutzte Optik zu einer Beschränkung des Auflösungsvermögens durch Abbildungsfehler, insbesondere durch Aberration.
+Das Auflösungsvermögen wird durch die Nutzung korrigierender Optiken beim sogennanten DISC (Differental Isochronous Self-Collimating) Detektordesign verbessert.
+
+\subsubsection{RICH-Detektoren}
+Im Unterschied zu den vorherigen Bauweisen wird bei einem RICH (Ring Imaging Cherenkov) Detektor das Licht des gesamten Cherenkovkegels auf einen Ring abgebildet.
+Bei bekanntem Ringradius sowie Abstand von Ring zum Punkt der Emission des Cherenkovlichtes lässt sich der Winkel $\beta$ rekonstruieren.
+Dementsprechend wird in diesem Fall der Cherenkovwinkel direkt und nicht über die Anzahl der Photonen gemessen.
+Für die Messung der Ringe existieren mehrere Prinzipien, dazu gehören MSC (Multi-Step Avalanche Chambers), Time-Projection-Chambers sowie die Detection of internally reflected Cherenkov light (DIRC).
+Die beiden ersten Methoden basieren auf der Umwandlung von Cherenkovlicht zu Photoelektronen und anschließender Messung der Elektronen, die dritte Methode basiert auf der internen Weiterleitung der Photonen durch Reflexion.
+Das Prinzip von RICH-Detektoren wird beispielsweise im LHCb-Detektor zur Reduktion des Untergrundes verwendet.
+
+\subsection{Experimentelle Herausforderungen}
+Bei der Konstruktion und Auswertung müssen mehrere experimentelle Probleme betrachtet werden.
+Beim Durchlaufen der Teilchen durch den Radiator tritt Mehrfachstreuung auf, wodurch die Richtung der Telichen und somit der Cherenkovwinkel verändert wird.
+Auch auf die Nutzung von möglichst rauscharmen Elektronikkomponenten muss geachtet werden, um die Photonen vom Untergrund unterscheiden zu können.
+Dementprechend ist es auch relevant, eine möglichst hohe Photonenausbeute zu erreichen. 
+Ebenfalls zu Beachten ist die Tatsache, dass die zu detektierenden Teilchen keine einheitliche Richtung besitzen und somit auch geometrische Korrekturen berücksichtigt werden müssen. 
+
+\subsection{Diskussion zum Vortrag}
+In der Diskussion wurde gefragt, aus welchem Grund das LHCb Experiment zwei verschiedene RICH-Detektoren zur Teilchenidentifikation verwendet.
+Dies liegt an der Tatsache, dass der sogenannte RICH1-Detektor für die Identifikation niederenergetischer Teilchen und der RICH2-Detektor für die Identifikation höherenergetischer Teilchen verwendet wird.
+Zudem kam die Frage auf, inwiefern eine Kombination aus Schwellenwertdetektor und fokussierenden Detektor heutzutage verwendet wird.
+Hintergrund dieses Gedankens ist die Tatsache, dass beide Bauweisen mit der Teilchenidentifikation bzw. der Teilchendetektion zwei komplementäre Nutzen erfüllen könnten.
+Aufgrund der hohen Spurdichten und der damit verbundenen komplexen Spurrekonstruktion wird dieses Verfahren jedoch nicht mehr verwendet.
