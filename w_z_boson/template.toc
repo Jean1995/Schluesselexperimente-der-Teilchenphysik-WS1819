@@ -1,0 +1,2 @@
+\select@language {german}
+\beamer@sectionintoc {1}{Die Entdeckung der neutralen Ströme}{2}{0}{1}
