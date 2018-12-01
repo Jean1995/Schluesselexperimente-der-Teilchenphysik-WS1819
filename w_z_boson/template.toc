@@ -1,2 +1,3 @@
 \select@language {german}
-\beamer@sectionintoc {1}{Die Entdeckung der neutralen Ströme}{2}{0}{1}
+\beamer@sectionintoc {1}{Die Theorie der schwachen Wechselwirkung}{2}{0}{1}
+\beamer@sectionintoc {2}{Die Entdeckung der neutralen Ströme}{9}{0}{2}

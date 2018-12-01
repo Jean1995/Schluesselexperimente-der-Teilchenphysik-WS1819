@@ -1,4 +1,9 @@
-\begin{thebibliography}{1}
+\begin{thebibliography}{10}
+
+\bibitem{fermi_four}
+Fermi’s neutrino: The key to the weak nuclear force.
+\newblock \url{https://www.quantumdiaries.org/tag/majorana/}.
+\newblock [Online; accessed 01-December-2018].
 
 \bibitem{CERN-EX-7011042}
 {A view inside the Gargamelle bubble chamber. Travaux de finition à
@@ -17,6 +22,17 @@
   électromagnétique doivent former une unique interaction.}
 \newblock 1973.
 
+\bibitem{9789810207274}
+{\em Nobel Lectures in Physics 1971-1980 (Nobel Lectures, Including
+  Presentation Speeches and Laureate)}.
+\newblock World Scientific Pub Co Inc, 1991.
+
+\bibitem{wiki:fermi}
+Wikimedia Commons.
+\newblock File:enrico fermi 1943-49.jpg --- wikimedia commons{,} the free media
+  repository, 2017.
+\newblock [Online; accessed 1-December-2018].
+
 \bibitem{wiki:gargamelle}
 Wikimedia Commons.
 \newblock File:gargamelle.jpg --- wikimedia commons{,} the free media
@@ -29,8 +45,24 @@ Wikimedia Commons.
   commons{,} the free media repository, 2018.
 \newblock [Online; accessed 26-November-2018].
 
+\bibitem{Gorringe:2015cma}
+T.~P. Gorringe and D.~W. Hertzog.
+\newblock {Precision Muon Physics}.
+\newblock {\em Prog. Part. Nucl. Phys.}, 84:73--123, 2015.
+
+\bibitem{Griffiths:111880}
+David~J Griffiths.
+\newblock {\em {Introduction to elementary particles; 2nd rev. version}}.
+\newblock Physics textbook. Wiley, New York, NY, 2008.
+
 \bibitem{doi:10.1142/9789814644150_0006}
 Luigi~Di Lella and Carlo Rubbia.
 \newblock {\em The Discovery of the W and Z Particles}, pages 137--163.
+
+\bibitem{perkins_2000}
+Donald~H. Perkins.
+\newblock {\em Electroweak interactions and the Standard Model}, page
+  242–275.
+\newblock Cambridge University Press, 4 edition, 2000.
 
 \end{thebibliography}
