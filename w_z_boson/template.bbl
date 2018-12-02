@@ -1,7 +1,7 @@
 \begin{thebibliography}{10}
 
 \bibitem{fermi_four}
-Fermi’s neutrino: The key to the weak nuclear force.
+Die entdeckung des w- und z-boson.
 \newblock \url{https://www.quantumdiaries.org/tag/majorana/}.
 \newblock [Online; accessed 01-December-2018].
 
@@ -22,10 +22,26 @@ Fermi’s neutrino: The key to the weak nuclear force.
   électromagnétique doivent former une unique interaction.}
 \newblock 1973.
 
+\bibitem{CERN-PHOTO-8308555}
+{Carlo Rubbia in his office}.
+\newblock No Comment, Aug 1983.
+
 \bibitem{9789810207274}
 {\em Nobel Lectures in Physics 1971-1980 (Nobel Lectures, Including
   Presentation Speeches and Laureate)}.
 \newblock World Scientific Pub Co Inc, 1991.
+
+\bibitem{sps}
+CERN.
+\newblock Super proton synchrotron (sps) - protonen.
+\newblock \url{http://www.lhc-facts.ch/index.php?page=sps}.
+\newblock [Online; accessed 02-December-2018].
+
+\bibitem{wiki:pdf}
+Wikimedia Commons.
+\newblock File:cteq6 parton distribution functions.png --- wikimedia commons{,}
+  the free media repository, 2012.
+\newblock [Online; accessed 2-December-2018].
 
 \bibitem{wiki:fermi}
 Wikimedia Commons.
@@ -45,6 +61,11 @@ Wikimedia Commons.
   commons{,} the free media repository, 2018.
 \newblock [Online; accessed 26-November-2018].
 
+\bibitem{Sadoulet}
+Delta~Institute for Theoretical~Physics.
+\newblock History of dark matter symposium.
+\newblock \url{https://www.youtube.com/watch?v=btKfJz8iZSE}, Jan 2015.
+
 \bibitem{Gorringe:2015cma}
 T.~P. Gorringe and D.~W. Hertzog.
 \newblock {Precision Muon Physics}.
@@ -54,6 +75,13 @@ T.~P. Gorringe and D.~W. Hertzog.
 David~J Griffiths.
 \newblock {\em {Introduction to elementary particles; 2nd rev. version}}.
 \newblock Physics textbook. Wiley, New York, NY, 2008.
+
+\bibitem{mci}
+Shana Hutchins.
+\newblock 1.5 billion particle physics experiment aboard endeavour has texas a
+  and m ties.
+\newblock \url{http://www.science.tamu.edu/news/story.php?story_ID=798}.
+\newblock [Online; accessed 02-December-2018].
 
 \bibitem{doi:10.1142/9789814644150_0006}
 Luigi~Di Lella and Carlo Rubbia.
