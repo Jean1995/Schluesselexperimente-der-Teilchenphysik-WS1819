@@ -2,3 +2,4 @@
 \beamer@sectionintoc {1}{Die Theorie der schwachen Wechselwirkung}{2}{0}{1}
 \beamer@sectionintoc {2}{Die Entdeckung der neutralen Ströme}{9}{0}{2}
 \beamer@sectionintoc {3}{"Pushing the energy frontier"}{16}{0}{3}
+\beamer@sectionintoc {4}{Die Suche nach den W- und Z-Bosonen}{28}{0}{4}

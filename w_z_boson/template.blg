@@ -9,54 +9,62 @@ Warning--to sort, need author or key in proposal
 Warning--to sort, need author or key in CERN-EX-7011042
 Warning--to sort, need author or key in CERN-EX-60100
 Warning--to sort, need author or key in CERN-PHOTO-8308555
+Warning--to sort, need author or key in CERN-PHOTO-8401333
+Warning--to sort, need author or key in CERN-PHOTO-8002262
+Warning--to sort, need author or key in CERN-HI-8301243
 Warning--empty author in CERN-EX-7011042
 Warning--empty note in CERN-EX-7011042
 Warning--empty author in proposal
 Warning--empty author in CERN-EX-60100
 Warning--empty note in CERN-EX-60100
+Warning--empty author in CERN-PHOTO-8002262
 Warning--empty author in CERN-PHOTO-8308555
+Warning--empty author in CERN-HI-8301243
+Warning--empty note in CERN-HI-8301243
+Warning--empty author in CERN-PHOTO-8401333
 Warning--empty author and editor in 9789810207274
+Warning--empty note in CERN-EX-8710495
 Warning--empty publisher in doi:10.1142/9789814644150_0006
 Warning--empty year in doi:10.1142/9789814644150_0006
-You've used 17 entries,
+You've used 21 entries,
             2118 wiz_defined-function locations,
-            584 strings with 6495 characters,
-and the built_in function-call counts, 3802 in all, are:
-= -- 375
-> -- 95
+            601 strings with 6830 characters,
+and the built_in function-call counts, 4388 in all, are:
+= -- 437
+> -- 105
 < -- 3
-+ -- 44
-- -- 26
-* -- 181
-:= -- 581
-add.period$ -- 48
-call.type$ -- 17
-change.case$ -- 61
++ -- 50
+- -- 28
+* -- 226
+:= -- 676
+add.period$ -- 57
+call.type$ -- 21
+change.case$ -- 74
 chr.to.int$ -- 0
-cite$ -- 32
-duplicate$ -- 173
-empty$ -- 374
-format.name$ -- 26
-if$ -- 849
+cite$ -- 44
+duplicate$ -- 197
+empty$ -- 421
+format.name$ -- 28
+if$ -- 964
 int.to.chr$ -- 0
-int.to.str$ -- 17
+int.to.str$ -- 21
 missing$ -- 8
-newline$ -- 84
-num.names$ -- 22
-pop$ -- 118
+newline$ -- 101
+num.names$ -- 24
+pop$ -- 124
 preamble$ -- 1
-purify$ -- 47
+purify$ -- 56
 quote$ -- 0
-skip$ -- 139
+skip$ -- 159
 stack$ -- 0
-substring$ -- 150
+substring$ -- 170
 swap$ -- 42
 text.length$ -- 3
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 60
-warning$ -- 15
-while$ -- 26
-width$ -- 19
-write$ -- 166
-(There were 15 warnings)
+type$ -- 76
+warning$ -- 23
+while$ -- 28
+width$ -- 23
+write$ -- 198
+(There were 23 warnings)
