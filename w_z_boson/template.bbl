@@ -5,84 +5,6 @@ Die entdeckung des w- und z-boson.
 \newblock \url{https://www.quantumdiaries.org/tag/majorana/}.
 \newblock [Online; accessed 01-December-2018].
 
-\bibitem{CERN-EX-7011042}
-{A view inside the Gargamelle bubble chamber. Travaux de finition à
-  l'intérieur du coprs de la chambre de Gargamelle}.
-\newblock Nov 1970.
-
-\bibitem{proposal}
-{Proposal for a neutrino experiment in gargamelle}.
-\newblock Technical Report CERN-TCC-70-12, CERN, Geneva, Mar 1970.
-
-\bibitem{CERN-EX-60100}
-{Gargamelle: first neutral current. En juillet 1973, une grande découverte est
-  annoncée dans le grand amphithéâtre du CERN : le groupe Gargamelle a
-  détecté les courants neutres faibles ! Cette observation confirme la
-  théorie électrofaible, qui prédit que la force faible et la force
-  électromagnétique doivent former une unique interaction.}
-\newblock 1973.
-
-\bibitem{CERN-PHOTO-8002262}
-{At UA2}.
-\newblock No Comment, Feb 1980.
-
-\bibitem{CERN-PHOTO-8308555}
-{Carlo Rubbia in his office}.
-\newblock No Comment, Aug 1983.
-
-\bibitem{CERN-HI-8301243}
-{Discovery of the intermediate W boson}.
-\newblock Jan 1983.
-
-\bibitem{CERN-PHOTO-8401333}
-{Simon van der Meer in the AA Control Room}.
-\newblock <br> (19 Sep 2006, heribert.koziol@cern.ch), Jan 1984.
-
-\bibitem{9789810207274}
-{\em Nobel Lectures in Physics 1971-1980 (Nobel Lectures, Including
-  Presentation Speeches and Laureate)}.
-\newblock World Scientific Pub Co Inc, 1991.
-
-\bibitem{sps}
-CERN.
-\newblock Super proton synchrotron (sps) - protonen.
-\newblock \url{http://www.lhc-facts.ch/index.php?page=sps}.
-\newblock [Online; accessed 02-December-2018].
-
-\bibitem{CERN-EX-8710495}
-ATLAS Collaboration.
-\newblock {UA2 Detector relocated to Building 175}.
-\newblock Aug 2015.
-
-\bibitem{wiki:pdf}
-Wikimedia Commons.
-\newblock File:cteq6 parton distribution functions.png --- wikimedia commons{,}
-  the free media repository, 2012.
-\newblock [Online; accessed 2-December-2018].
-
-\bibitem{wiki:fermi}
-Wikimedia Commons.
-\newblock File:enrico fermi 1943-49.jpg --- wikimedia commons{,} the free media
-  repository, 2017.
-\newblock [Online; accessed 1-December-2018].
-
-\bibitem{wiki:gargamelle}
-Wikimedia Commons.
-\newblock File:gargamelle.jpg --- wikimedia commons{,} the free media
-  repository, 2018.
-\newblock [Online; accessed 26-November-2018].
-
-\bibitem{wiki:NC}
-Wikimedia Commons.
-\newblock File:neutral current, leptonic event, muon neutrino.png --- wikimedia
-  commons{,} the free media repository, 2018.
-\newblock [Online; accessed 26-November-2018].
-
-\bibitem{Sadoulet}
-Delta~Institute for Theoretical~Physics.
-\newblock History of dark matter symposium.
-\newblock \url{https://www.youtube.com/watch?v=btKfJz8iZSE}, Jan 2015.
-
 \bibitem{Gorringe:2015cma}
 T.~P. Gorringe and D.~W. Hertzog.
 \newblock {Precision Muon Physics}.
@@ -93,6 +15,91 @@ David~J Griffiths.
 \newblock {\em {Introduction to elementary particles; 2nd rev. version}}.
 \newblock Physics textbook. Wiley, New York, NY, 2008.
 
+\bibitem{wiki:fermi}
+Wikimedia Commons.
+\newblock File:enrico fermi 1943-49.jpg --- wikimedia commons{,} the free media
+  repository.
+\newblock
+  \url{https://commons.wikimedia.org/w/index.php?title=File:Enrico_Fermi_1943-49.jpg&oldid=269977942},
+  2017.
+\newblock [Online; accessed 1-December-2018].
+
+\bibitem{perkins_2000}
+Donald~H. Perkins.
+\newblock {\em Electroweak interactions and the Standard Model}, page
+  242–275.
+\newblock Cambridge University Press, 4 edition, 2000.
+
+\bibitem{9789810207274}
+{\em Nobel Lectures in Physics 1971-1980 (Nobel Lectures, Including
+  Presentation Speeches and Laureate)}.
+\newblock World Scientific Pub Co Inc, 1991.
+
+\bibitem{wiki:NC}
+Wikimedia Commons.
+\newblock File:neutral current, leptonic event, muon neutrino.png --- wikimedia
+  commons{,} the free media repository.
+\newblock
+  \url{https://commons.wikimedia.org/w/index.php?title=File:Neutral_current,_leptonic_event,_muon_neutrino.png&oldid=291827646},
+  2018.
+\newblock [Online; accessed 26-November-2018].
+
+\bibitem{wiki:gargamelle}
+Wikimedia Commons.
+\newblock File:gargamelle.jpg --- wikimedia commons{,} the free media
+  repository.
+\newblock
+  \url{https://commons.wikimedia.org/w/index.php?title=File:Gargamelle.jpg&oldid=310784373},
+  2018.
+\newblock [Online; accessed 26-November-2018].
+
+\bibitem{proposal}
+{Proposal for a neutrino experiment in gargamelle}.
+\newblock \url{https://cds.cern.ch/record/1184733}, Mar 1970.
+
+\bibitem{CERN-EX-7011042}
+{A view inside the Gargamelle bubble chamber. Travaux de finition à
+  l'intérieur du coprs de la chambre de Gargamelle}.
+\newblock \url{https://cds.cern.ch/record/615825}, Nov 1970.
+
+\bibitem{CERN-EX-60100}
+{Gargamelle: first neutral current.}
+\newblock \url{https://cds.cern.ch/record/39468}, 1973.
+
+\bibitem{doi:10.1142/9789814644150_0006}
+Luigi~Di Lella and Carlo Rubbia.
+\newblock {\em The Discovery of the W and Z Particles}, pages 137--163.
+
+\bibitem{CERN-PHOTO-8308555}
+{Carlo Rubbia in his office}.
+\newblock \url{https://cds.cern.ch/record/970174}, Aug 1983.
+\newblock No Comment.
+
+\bibitem{1556151128}
+Gary Taubes.
+\newblock {\em Nobel Dreams: Power, Deceit and the Ultimate Experiment}.
+\newblock Microsoft Press, 1988.
+
+\bibitem{Sadoulet}
+Delta~Institute for Theoretical~Physics.
+\newblock History of dark matter symposium.
+\newblock \url{https://www.youtube.com/watch?v=btKfJz8iZSE}, Jan 2015.
+
+\bibitem{sps}
+CERN.
+\newblock Super proton synchrotron (sps) - protonen.
+\newblock \url{http://www.lhc-facts.ch/index.php?page=sps}.
+\newblock [Online; accessed 02-December-2018].
+
+\bibitem{wiki:pdf}
+Wikimedia Commons.
+\newblock File:cteq6 parton distribution functions.png --- wikimedia commons{,}
+  the free media repository.
+\newblock
+  \url{https://commons.wikimedia.org/w/index.php?title=File:CTEQ6_parton_distribution_functions.png&oldid=70178011},
+  2012.
+\newblock [Online; accessed 2-December-2018].
+
 \bibitem{mci}
 Shana Hutchins.
 \newblock 1.5 billion particle physics experiment aboard endeavour has texas a
@@ -100,14 +107,49 @@ Shana Hutchins.
 \newblock \url{http://www.science.tamu.edu/news/story.php?story_ID=798}.
 \newblock [Online; accessed 02-December-2018].
 
-\bibitem{doi:10.1142/9789814644150_0006}
-Luigi~Di Lella and Carlo Rubbia.
-\newblock {\em The Discovery of the W and Z Particles}, pages 137--163.
+\bibitem{CERN-PHOTO-8401333}
+{Simon van der Meer in the AA Control Room}.
+\newblock \url{http://cds.cern.ch/record/970306}, Jan 1984.
+\newblock <br> (19 Sep 2006, heribert.koziol@cern.ch).
 
-\bibitem{perkins_2000}
-Donald~H. Perkins.
-\newblock {\em Electroweak interactions and the Standard Model}, page
-  242–275.
-\newblock Cambridge University Press, 4 edition, 2000.
+\bibitem{CERN-PHOTO-8002262}
+{At UA2}.
+\newblock \url{https://cds.cern.ch/record/969545}, Feb 1980.
+\newblock No Comment.
+
+\bibitem{CERN-EX-8710495}
+ATLAS Collaboration.
+\newblock {UA2 Detector relocated to Building 175}.
+\newblock \url{https://cds.cern.ch/images/ATLAS-PHO-Site-2015-003-1}, Aug 2015.
+
+\bibitem{CERN-HI-8301243}
+{Discovery of the intermediate W boson}.
+\newblock \url{http://cds.cern.ch/record/39570}, Jan 1983.
+
+\bibitem{Patrignani:2016xqp}
+C.~Patrignani et~al.
+\newblock {Review of Particle Physics}.
+\newblock {\em Chin. Phys.}, C40(10):9, 2016.
+
+\bibitem{CERN-PHOTO-8410523}
+{Simon van der Meer and Carlo Rubbia celebrate their awarding of the Nobel
+  Prize in 1984 with a toast at CERN.}
+\newblock \url{https://cds.cern.ch/record/615822}, Oct 1984.
+\newblock Image scanned from original photo negative on 11 May 2015.
+
+\bibitem{wiki:tevatron}
+Wikimedia Commons.
+\newblock File:fermilab.jpg --- wikimedia commons{,} the free media repository.
+\newblock
+  \url{https://commons.wikimedia.org/w/index.php?title=File:Fermilab.jpg&oldid=282915500},
+  2018.
+\newblock [Online; accessed 5-December-2018].
+
+\bibitem{vorhersage}
+Patrick Schünke.
+\newblock Fermi’s neutrino: The key to the weak nuclear force.
+\newblock
+  \url{https://www.physi.uni-heidelberg.de/~fschney/Seminar.SS10/Sch%C3%BCnke.pdf}.
+\newblock [Online; accessed 02-December-2018].
 
 \end{thebibliography}

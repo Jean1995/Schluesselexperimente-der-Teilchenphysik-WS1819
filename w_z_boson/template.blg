@@ -1,70 +1,50 @@
 This is BibTeX, Version 0.99d (TeX Live 2016)
 Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
 The top-level auxiliary file: template.aux
-The style file: plain.bst
+The style file: unsrt.bst
 Database file #1: example.bib.bib
-Warning--to sort, need author or key in fermi_four
-Warning--to sort, need author, editor, or key in 9789810207274
-Warning--to sort, need author or key in proposal
-Warning--to sort, need author or key in CERN-EX-7011042
-Warning--to sort, need author or key in CERN-EX-60100
-Warning--to sort, need author or key in CERN-PHOTO-8308555
-Warning--to sort, need author or key in CERN-PHOTO-8401333
-Warning--to sort, need author or key in CERN-PHOTO-8002262
-Warning--to sort, need author or key in CERN-HI-8301243
-Warning--empty author in CERN-EX-7011042
-Warning--empty note in CERN-EX-7011042
-Warning--empty author in proposal
-Warning--empty author in CERN-EX-60100
-Warning--empty note in CERN-EX-60100
-Warning--empty author in CERN-PHOTO-8002262
-Warning--empty author in CERN-PHOTO-8308555
-Warning--empty author in CERN-HI-8301243
-Warning--empty note in CERN-HI-8301243
-Warning--empty author in CERN-PHOTO-8401333
 Warning--empty author and editor in 9789810207274
-Warning--empty note in CERN-EX-8710495
 Warning--empty publisher in doi:10.1142/9789814644150_0006
 Warning--empty year in doi:10.1142/9789814644150_0006
-You've used 21 entries,
-            2118 wiz_defined-function locations,
-            601 strings with 6830 characters,
-and the built_in function-call counts, 4388 in all, are:
-= -- 437
-> -- 105
-< -- 3
-+ -- 50
-- -- 28
-* -- 226
-:= -- 676
-add.period$ -- 57
-call.type$ -- 21
-change.case$ -- 74
+You've used 26 entries,
+            1791 wiz_defined-function locations,
+            593 strings with 7928 characters,
+and the built_in function-call counts, 3890 in all, are:
+= -- 359
+> -- 86
+< -- 2
++ -- 45
+- -- 19
+* -- 102
+:= -- 528
+add.period$ -- 81
+call.type$ -- 26
+change.case$ -- 22
 chr.to.int$ -- 0
-cite$ -- 44
-duplicate$ -- 197
-empty$ -- 421
-format.name$ -- 28
+cite$ -- 29
+duplicate$ -- 194
+empty$ -- 507
+format.name$ -- 19
 if$ -- 964
 int.to.chr$ -- 0
-int.to.str$ -- 21
-missing$ -- 8
-newline$ -- 101
-num.names$ -- 24
-pop$ -- 124
+int.to.str$ -- 26
+missing$ -- 11
+newline$ -- 135
+num.names$ -- 16
+pop$ -- 163
 preamble$ -- 1
-purify$ -- 56
+purify$ -- 0
 quote$ -- 0
-skip$ -- 159
+skip$ -- 112
 stack$ -- 0
-substring$ -- 170
-swap$ -- 42
-text.length$ -- 3
+substring$ -- 67
+swap$ -- 54
+text.length$ -- 2
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 76
-warning$ -- 23
-while$ -- 28
-width$ -- 23
-write$ -- 198
-(There were 23 warnings)
+type$ -- 0
+warning$ -- 3
+while$ -- 21
+width$ -- 28
+write$ -- 268
+(There were 3 warnings)

@@ -25,7 +25,6 @@
 \documentclass[aspectratio=1610, professionalfonts, 10pt]{beamer}
 \usepackage{polyglossia}
 \setmainlanguage{german}
-
 \usepackage[
   locale=DE,                 % deutsche Einstellungen
   separate-uncertainty=true, % immer Fehler mit \pm
@@ -49,11 +48,17 @@
 %\definecolor{main}{RGB}{92, 138, 168}
 %\definecolor{background}{RGB}{240, 247, 255}
 
+
+
 %------------------------------------------------
 
 \usepackage{booktabs} % Required for better table rules
 
 \usepackage{url}
+
+\usepackage{chronology}
+
+
 
 %----------------------------------------------------------------------------------------
 %	 TITLE SLIDE
@@ -329,8 +334,8 @@
 			\setlength\itemsep{0.5em}
 			\item Aus den Ergebnissen des Experimentes konnten die Massen von W-Boson und Z-Boson vorhergesagt werden \cite{doi:10.1142/9789814644150_0006}:
 			\begin{align*}
-				M_W &\approx \left(60-80\right)\si{\giga\electronvolt}\\
-				M_Z &\approx \left(75-92\right)\si{\giga\electronvolt}
+				M_\text{W} &\approx \left(60-80\right)\si{\giga\electronvolt}\\
+				M_\text{Z} &\approx \left(75-92\right)\si{\giga\electronvolt}
 			\end{align*}
 			\item Jedoch existierte noch kein Experiment, welches die zur Erzeugung notwendige Schwerpunktsenergie zur Verfügung stellen konnte
 			\item[$\Rightarrow$]Verschieben der "energy frontier" notwendig!
@@ -369,7 +374,7 @@
 					\setlength\itemsep{0.5em}
 					\item Hatte häufig unendlich viele Ideen für Experimente, jedoch selten die Geduld, diese umzusetzen
 					\item Keinen Ruf für genaue Analysen:\\
-					\emph{"His numbers are what they are. They are usually wrong - but if they suit his purpose, nothing is wrong."} (Bernard Sadoulet)
+					\emph{"His numbers are what they are. They are usually wrong - but if they suit his purpose, nothing is wrong."} (Bernard Sadoulet, \cite{1556151128})
 					\item Seine Expertise war in den 1970er Jahren zwar bekannt, jedoch auch seine Misserfolge
 					\item[$\Rightarrow$] z.B. widersprachen seine Analysen zunächst der Existenz neutraler Ströme
 				\end{itemize}
@@ -486,7 +491,7 @@
 					\item Speicherring für Protonen und Antiprotonen, Speicherzeit von 15 bis 20 Stunden
 					\item Betrieb eines Speicherrings (Sp$\overline{\text{p}}$S) anspruchsvoller als der eines Synchrotrons (SPS)
 					\item[$\rightarrow$] Bau einer beam line für entgegengesetzte Injektion
-					\item[$\rightarrow$] Verbesserung des Vakuums um drei Größeordnungen
+					\item[$\rightarrow$] Verbesserung des Vakuums um drei Grö{\ss}enordnungen
 					\item[$\rightarrow$] Anpassung der Kavitäten, um p und $\overline{\text{p}}$ in exakten Bunches zu beschleunigen (so dass Kollsionen nur in den Detektoren stattfinden)
 				\end{itemize}
 \end{frame}
@@ -556,7 +561,7 @@
 		\column{0.6\textwidth}
 				\begin{itemize}
 					\setlength\itemsep{0.5em}
-					\item Bewilligung der Experimente UA2 (Juni 1978) und UA2 (Ende 1978)
+					\item Bewilligung der Experimente UA1 (Juni 1978) und UA2 (Ende 1978) am Sp$\overline{\text{p}}$S
 					\item[$\rightarrow$] Beide mit dem Ziel, die W- und Z-Bosonen zu finden
 					\item Experimente am Sp$\overline{\text{p}}$S lagen ca. \SI{50}{\metre} unter der Erde, deshalb die Namen \textbf{U}nderground \textbf{A}rea
 					\item W-Boson zerfällt primär ($\approx \SI{70}{\percent}$) in ein Quark-Antiquark-Paar, welche als zwei hadronische Jets sichtbar wären
@@ -579,8 +584,8 @@
 				\begin{itemize}
 					\setlength\itemsep{0.5em}
 					\item Team von ca. 130 Physikern, unter Leitung von Rubbia, arbeiteten an UA1
-					\item Design: Großer, komplexer, multifunktionaler 4\pi-Detektor
-					\item Umgeben von großem Dipolmagnet mit $\SI{0.7}{\tesla}$ Magnetfeld
+					\item Design: Gro{\ss}er, komplexer, multifunktionaler 4\pi-Detektor
+					\item Umgeben von gro{\ss}em Dipolmagnet mit $\SI{0.7}{\tesla}$ Magnetfeld
 					\item Driftkammer zur Rekonstruktion der Teilchenbahn, Energieverlust, Ladung und Impuls
 				\end{itemize}
 		\column{0.5\textwidth}
@@ -635,7 +640,7 @@
 	\end{columns}
 \end{frame}
 
-\begin{frame}{Die Resulate von UA1 und UA2}
+\begin{frame}{Suche nach den W-Bosonen}
 			\begin{itemize}
 				\setlength\itemsep{0.5em}
 				\item Suche nach $\text{W}^{\pm} \rightarrow \text{e}^{\pm} + \overset{(-)}{\nu_e}$ an UA1 und UA2
@@ -653,7 +658,7 @@
 
 \end{frame}
 
-\begin{frame}[plain]{Die Resulate von UA1 und UA2}
+\begin{frame}[plain]{Suche nach den W-Bosonen}
 		\vspace*{-40px}
 	\begin{columns}
 		\column{0.4\textwidth}
@@ -673,7 +678,7 @@
 	\end{columns}
 \end{frame}
 
-\begin{frame}[plain]{Die Resulate von UA1 und UA2}
+\begin{frame}[plain]{Suche nach den W-Bosonen}
 		\vspace*{-40px}
 	\begin{columns}
 		\column{0.6\textwidth}
@@ -689,7 +694,7 @@
 	\end{columns}
 \end{frame}
 
-\begin{frame}{Die Resulate von UA1 und UA2}
+\begin{frame}{Suche nach den W-Bosonen}
 	\begin{columns}
 		\column{0.5\textwidth}
 				\begin{itemize}
@@ -698,7 +703,7 @@
 					\item \textbf{20. Januar 1983} Ergebnis von UA1 wird in Seminar vorgestellt
 					\item \textbf{21. Januar 1983} UA2 präsentiert sechs weitere Kandidaten
 					\item \textbf{25. Januar 1983} Pressekonferenz mit der Nachricht, dass das W-Boson entdeckt wurde
-					\item[$\rightarrow$] Im Bild von links nach rechts: Carlo Rubbia, Simon van der Meer, Herwig Schopper (Director General), Erwin Gabathuler (Research Director), Pierre Darriulat.
+					\item[$\rightarrow$] Im Bild von links nach rechts: Carlo Rubbia, Simon van der Meer, Herwig Schopper (Director General), Erwin Gabathuler (Research Director), Pierre Darriulat
 				\end{itemize}
 		\column{0.5\textwidth}
 			\begin{figure}
@@ -709,7 +714,131 @@
 			\end{figure}
 	\end{columns}
 \end{frame}
-%
+
+\begin{frame}{Suche nach dem Z-Boson}
+			\begin{itemize}
+				\setlength\itemsep{0.5em}
+				\item Laut Theorie: Z-Boson Ereignisse treten etwa zehn mal seltener als W-Boson Ereignisse auf
+				\item[$\rightarrow$] Längere Messzeit und Verbesserung der Luminosität
+				\item Einschränkung der relevanten Events bei UA1:
+				\item[1.] Zwei Kalorimetereinträge, die mit Elektronen kompatibel sind und ein $E_\text{T} > \SI{25}{\giga\electronvolt}$ besitzen
+				\item[2.] Isolierte Spur, die auf einen der beiden Cluster zeigt
+				\item[3.] Isolierte Spur, die auf zweiten Cluster zeigt
+				\item[$\rightarrow$] 4 Events mit dieser Signatur gefunden, kompatibel mit einer eindeutigen invarianten Masse
+			\end{itemize}
+\end{frame}
+
+
+\begin{frame}{Suche nach dem Z-Boson}
+			\begin{figure}
+	  			\centering
+				\includegraphics[width=0.85\linewidth]{Images/Screenshot_2018-12-05_15-29-02.png}
+				\caption{Invariante Massen der Z-Boson-Ereignisse, die von UA1 beobachtet wurden. \cite{doi:10.1142/9789814644150_0006} Zusätzlich konnte ein Event mit der Signatur $\text{Z} \rightarrow \mu^+ \mu^-$ beobachtet werden.}
+	  			\label{fig:sad}
+			\end{figure}
+\end{frame}
+
+\begin{frame}{Suche nach dem Z-Boson}
+	\begin{columns}
+		\column{0.5\textwidth}
+				\begin{itemize}
+					\setlength\itemsep{0.5em}
+					\vspace*{-20px}
+					\item Wert für $M_\text{Z}$ von UA1:
+					\begin{align*}
+						M_\text{Z} = \left( \num{95.2} \pm \num{2.5} \pm \num{3.0} \right) \si{\giga\electronvolt}
+					\end{align*}
+					\item UA2 hat drei Kandidaten für Z-Bosonen gefunden, Wert für $M_\text{Z}$:
+					\begin{align*}
+						M_\text{Z} = \left( \num{91.9} \pm \num{1.3} \pm \num{1.4} \right) \si{\giga\electronvolt}
+					\end{align*}
+					\item Zum Vergleich: Der aktuelle Wert \cite{Patrignani:2016xqp}:
+					\begin{align*}
+						M_\text{Z} = \SI{91.1876+- 0.0021}{\giga\electronvolt}
+					\end{align*}
+					\item \textbf{1. Juni 1983}: Bekanntgabe, dass das Z-Boson gefunden wurde
+				\end{itemize}
+		\column{0.5\textwidth}
+			\begin{figure}
+	  			\centering
+				\includegraphics[width=0.85\linewidth]{Images/Screenshot_2018-12-05_15-33-31}
+				\caption{Einzelnes UA1 Event der Signatur $\text{Z} \rightarrow \text{e}^+ \text{e}^-$, nachdem der Hintergrund entfernt wurde \cite{doi:10.1142/9789814644150_0006}}
+	  			\label{fig:sad}
+			\end{figure}
+	\end{columns}
+\end{frame}
+
+\section{Die Zeit nach der Entdeckung}
+
+
+\begin{frame}{Nobelpreise}
+	\begin{columns}
+		\column{0.5\textwidth}
+				\begin{itemize}
+					\setlength\itemsep{0.5em}
+					\vspace*{-20px}
+					\item \textbf{17. Oktober 1984} Der Nobelpreis in Physik wird an Carlo Rubbia und Simon Van der Meer vergeben: \\
+					\emph{"For their decisive contributions to the large project, which led to the discovery of the field particles W and Z, communicators of weak interaction."}
+				\end{itemize}
+		\column{0.5\textwidth}
+			\begin{figure}
+	  			\centering
+				\includegraphics[width=\linewidth]{Images/CCint5_08_14}
+				\caption{Carlo Rubbia und Simon van der Meer feiern den Erhalt des Nobelpreises am CERN \cite{CERN-PHOTO-8410523}}
+	  			\label{fig:sad}
+			\end{figure}
+	\end{columns}
+\end{frame}
+
+\begin{frame}{Präsisionsmessungen}
+	\begin{columns}
+		\column{0.5\textwidth}
+				\begin{itemize}
+					\setlength\itemsep{0.5em}
+					\vspace*{-20px}
+					\item Präzisionsmessungen von $m_\text{W}$ und $m_\text{Z}$
+					\item[$\rightarrow$] Am Large-Electron-Positron Collider (LEP), Betrieb von 1989 bis 2000
+					\item[$\rightarrow$] Am Tevatron, Betrieb 1983 bis 2011
+				\end{itemize}
+		\column{0.5\textwidth}
+			\begin{figure}
+	  			\centering
+				\includegraphics[width=\linewidth]{Images/1200px-Fermilab.jpg}
+				\caption{Fermilab, Tevatron im Hintergrund \cite{wiki:tevatron}}
+	  			\label{fig:sad}
+			\end{figure}
+	\end{columns}
+\end{frame}
+
+\begin{frame}{Präsisionsmessungen}
+		\begin{figure}
+	  		\centering
+			\includegraphics[width=0.9\textheight]{ressources/mw.pdf}
+			\caption{Daten und Fehler für die Masse des W-Bosons für die verschiedenen Jahre aus dem PDG. Quelle: \url{http://pdg.lbl.gov/rpp-archive/}.}
+	  		\label{fig:sad}
+		\end{figure}
+\end{frame}
+
+\begin{frame}{Präsisionsmessungen}
+		\begin{figure}
+	  		\centering
+			\includegraphics[width=0.9\textheight]{ressources/mz.pdf}
+			\caption{Daten und Fehler für die Masse des Z-Bosons für die verschiedenen Jahre aus dem PDG. Quelle: \url{http://pdg.lbl.gov/rpp-archive/}.}
+	  		\label{fig:sad}
+		\end{figure}
+\end{frame}
+
+\begin{frame}{Zusammenfasung}
+	\begin{chronology}[3]{1967}{1985}{\textwidth}		
+		\event{1968}{Theorie der elektroschwachen Wechselwirkung}
+		\event{1973}{Beobachtung der neutralen Ströme (Gargamelle)}
+		\event{1978}{Umbau des SPS zu p$\overline{\text{p}}$-Collider}
+		\event{1981}{Entdeckung W und Z (UA1 und UA2)}
+		\event{1984}{Nobelpreis für Rubbia und Van der Meer}
+	\end{chronology}
+\end{frame}
+
+
 %------------------------------------------------
 
 \begin{frame}[focus]
@@ -722,13 +851,78 @@
 
 \appendix
 
+\setbeamertemplate{bibliography item}[text]
+
+
 \begin{frame}[allowframebreaks]{References}
 	\bibliography{example.bib}
-	\bibliographystyle{plain}
+	\bibliographystyle{unsrt}
 \end{frame}
 
 %------------------------------------------------
 
+\begin{frame}{Vorhersage der W- und Z-Boson Massen}
+			Aus der elektroschwachen Theorie folgt \cite{vorhersage}
+			\begin{align*}
+				\frac{\sigma_\text{NC}}{\sigma_\text{CC}} = \frac{1}{2} - \sin^2{\left( \Theta_\text{W}\right)} + \frac{20}{27} \sin^4{\left( \Theta_\text{W}\right)}
+			\end{align*}
+			sowie
+			\begin{align*}
+				M_\text{W}^2 &= \frac{e^2 \sqrt{2}}{8 \text{G}_\text{F} \sin^2{\left( \Theta_\text{W}\right)} }\\
+				M_\text{Z} &= \frac{M_\text{W}}{\cos{\left( \Theta_\text{W}  \right)}}.
+			\end{align*}
+			Hieraus lassen sich aus den experimentellen Daten von Gargamelle die Massen des W-Bosons und Z-Bosons vorhersagen zu
+			\cite{doi:10.1142/9789814644150_0006}:
+			\begin{align*}
+				M_\text{W} &\approx \left(60-80\right)\si{\giga\electronvolt}\\
+				M_\text{Z} &\approx \left(75-92\right)\si{\giga\electronvolt}
+			\end{align*}
+\end{frame}
+
+\begin{frame}{Messung der W-Boson Masse von UA1}
+				\begin{itemize}
+					\setlength\itemsep{0.5em}
+					\vspace*{-20px}
+					\item Beobachtung von $\text{W} \rightarrow \text{e} \nu$
+					\item Invariante Masse lässt sich aufgrund des nicht detektierten Neutrinos nicht vollständig bestimmen
+					\item[$\rightarrow$] $z$-Komponente des Impulses ist unbekannt
+				\end{itemize}
+				Betrachte transversale Masse $M_\text{T}$, definiert über
+				\begin{align*}
+					M_\text{T}^2 = \left( E_{\text{T}, 1} + E_{\text{T}, 2} \right) - \left( \vec{p_{\text{T}, 1}} + \vec{p_{\text{T}, 2}} \right)
+				\end{align*}
+				mit $E_\text{T} \approx |\vec{p_{\text{T}, 1}}|$. Es ergibt sich
+				\begin{align*}
+					M_\text{T}^2 = 2 E_{\text{T}, 1} E_{\text{T}, 2} \left( 1 - \cos{\Theta} \right)
+				\end{align*}
+				mit dem Winkel $\Theta$ zwischen den beiden Zerfallsprodukten.
+\end{frame}
+
+
+\begin{frame}{Messung der W-Boson Masse von UA1}
+	\begin{columns}
+		\column{0.4\textwidth}
+				\begin{itemize}
+					\setlength\itemsep{0.5em}
+					\vspace*{-20px}
+					\item Transversale Masse $M_\text{T}$ ist sensitiv auf $M_\text{W}$
+					\item[$\rightarrow$] Auftreten der "Jacobi-Kante" bei $M_\text{W}$, wenn $M_\text{T}$ gegen die Ereignisrate aufgetragen wird
+					\item[$\rightarrow$] Grund: $M_\text{T} \leq M_\text{W}$
+					\item[$\rightarrow$] Kante verschmiert aufgrund von endlicher Zerfallsbreite sowie Impuls in $z$-Richtung
+					\item Bestimmung von $M_\text{W}$ zu \cite{doi:10.1142/9789814644150_0006}
+					\begin{align*}
+						M_\text{W} = \left( \num{80.2} \pm \num{0.8} \pm \num{1.3} \right)\si{\giga\electronvolt}
+					\end{align*}
+				\end{itemize}
+		\column{0.6\textwidth}
+			\begin{figure}
+	  			\centering
+				\includegraphics[width=0.7\linewidth]{Images/Screenshot_2018-12-05_16-22-51.png}
+				\caption{Transversale Masse $M_\text{T}$ in der Signatur $\text{W} \rightarrow \text{e} \nu$, gemessen von UA1 \cite{doi:10.1142/9789814644150_0006}}
+	  			\label{fig:sad}
+			\end{figure}
+	\end{columns}
+\end{frame}
 
 
 %----------------------------------------------------------------------------------------
