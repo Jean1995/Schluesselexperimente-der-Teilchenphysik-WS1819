@@ -140,7 +140,7 @@ m_z_error = np.array([
 ])
 
 plt.errorbar(year, m_w, yerr=m_w_error, fmt='.', capthick=2)
-plt.ylabel(r'$M_Z \,/\, GeV$')
+plt.ylabel(r'$M_W \,/\, GeV$')
 plt.xlabel('Jahr')
 plt.tight_layout()
 plt.savefig('mw.pdf')

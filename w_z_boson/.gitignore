@@ -1,8 +1,10 @@
 texput.log
-summary.bbl
-summary.blg
-summary.aux
-summary.log
-summary.toc
-summary.pdf
+template.bbl
+template.blg
+template.aux
+template.log
+template.toc
+template.pdf
+template.nav
+template.snm
 .DS_Store
